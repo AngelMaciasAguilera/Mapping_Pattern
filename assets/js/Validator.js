@@ -54,8 +54,6 @@ export class Validator{
 
 
                         ]
-            
-            
             */
             this.#mappedInputs.push(inputMap([...form.querySelectorAll('input')]).filter((inputs) => inputs !== undefined));
         });
